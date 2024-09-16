@@ -1,0 +1,50 @@
+.title-header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.chevron-down {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.p-overlaypanel {
+    border: 1px solid #000; 
+}
+
+.p-overlaypanel:before, .p-overlaypanel:after {
+   content: none;
+   border: none;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-container input {
+    font-family: inherit;
+    padding: 5px;
+    width: 140px;
+    border-radius: 5px;
+    border: 1px solid #000; 
+}
+
+.input-container button {
+    font-family: inherit;
+    padding: 5px;
+    background-color: inherit;
+    border-radius: 5px;
+    border: 1px solid #000; 
+    align-self: self-end;
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: 0 0 2px #000;
+}
+
+.input-container button:hover {
+    background-color: #ececec;
+    cursor: pointer;
+}
